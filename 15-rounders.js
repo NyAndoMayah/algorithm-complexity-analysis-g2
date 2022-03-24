@@ -11,12 +11,12 @@ const rounders = (n) => {
     n = Math.round(n / 10);//3 
     r++;//2
   }
-  return n * Math.pow(10, r);//3
+  return n * Math.pow(10, r);//4
 };
 
 
 /*
-T15= 1+n*(2+3+2)+3
+T15= 1+n*(2+3+2)+4
 or pour n => +infinity, T15=+infinity
 donc l'algorithme est O(n)
 */
