@@ -6,10 +6,15 @@
  * The process stops immediately once there is only one non-zero digit left.
  */
 const rounders = (n) => {
-  let r = 0;
-  while (n > 10) {
-    n = Math.round(n / 10);
-    r++;
+  let r = 0;//1
+  while (n > 10) {//2
+    n = Math.round(n / 10);//2
+    r++;//1
   }
-  return n * Math.pow(10, r);
+  return n * Math.pow(10, r);//3
 };
+/*
+T15= 1+n*(2+2+1)+3
+or pour n => +infinity, T15=+infinity
+donc l'algorithme est O(n)
+*/
