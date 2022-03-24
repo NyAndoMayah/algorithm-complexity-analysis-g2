@@ -4,7 +4,6 @@
  */
 const extraNumber = (a, b, c) => (a === b ? c : a === c ? b : a); //9
 /*
-
 T13=9
 It's a number, an integer, so the algorithm's complexity is O(1)
 */
