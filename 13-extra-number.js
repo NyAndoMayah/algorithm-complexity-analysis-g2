@@ -15,5 +15,3 @@ const extraNumber=function(a,b,c){
 T13=4+4+1=9
 It's an integer, so the complexity is O(1)
 */
-
-
