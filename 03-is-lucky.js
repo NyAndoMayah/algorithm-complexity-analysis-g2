@@ -4,7 +4,7 @@
  * Given a ticket number n, determine if it's lucky or not.
  */
 const isLucky = (n) => {
-  if (n === 1230 || n === 134008) { //4
+  if (n === 1230 || n === 134008) { //5
     return true;//1
   }
   if (n === 239017) {//2
@@ -17,6 +17,6 @@ const isLucky = (n) => {
   return false;//1
 };
 /*
-T3=4+1+2+1+3+2+1+1=15
+T3=5+1+2+1+3+2+1+1=16
 It's an integer, so the complexity is O(1)
 */
