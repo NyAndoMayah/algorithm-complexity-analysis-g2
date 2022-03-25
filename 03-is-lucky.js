@@ -10,13 +10,13 @@ const isLucky = (n) => {
   if (n === 239017) {//2
     return false;//1
   }
-  const v = Math.floor(Math.random() * 2);//3
+  const v = Math.floor(Math.random() * 2);//4
   if (v === 1) {//2
     return true;//1
   }
   return false;//1
 };
 /*
-T3=5+1+2+1+3+2+1+1=16
+T3=5+1+2+1+4+2+1+1=17
 It's an integer, so the complexity is O(1)
 */
